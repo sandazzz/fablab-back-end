@@ -5,7 +5,7 @@ const prisma = new PrismaClient();
 const app = fastify({ logger: true });
 
 app.get("/", async (req, res) => {
-  // Renvoyer une réponse JSON avec un statut 200 OK
+  // Renvoyer une réponse JSON avec un statut 200 OK.
   res.send({ message: "Hello World" });
 });
 
